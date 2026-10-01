@@ -1,0 +1,8 @@
+short_description,description,expected_category,expected_group
+Wi-Fi not working in Lab 2,Students cannot connect to the internet since morning,network,Network Support
+Projector shows no signal,HDMI cable connected but projector display is blank in Class 8B,hardware,Hardware Support
+Forgot my password,I am locked out of my school account and need a reset,software,Service Desk
+Computer is very slow,Staff room PC hangs and takes long to open files,hardware,Hardware Support
+Need Python installed,Please install Python software on the lab systems,software,Software Support
+URGENT: Wi-Fi down for all students,Exam is in progress and the entire lab has no internet,network,Network Support
+Request for new chair,Need a chair for the office,inquiry,Service Desk

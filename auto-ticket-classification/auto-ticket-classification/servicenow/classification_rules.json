@@ -1,0 +1,57 @@
+{
+  "default": {
+    "category": "inquiry",
+    "subcategory": "",
+    "assignment_group": "Service Desk",
+    "urgency": 3,
+    "impact": 3
+  },
+  "escalation_keywords": ["exam", "urgent", "all students", "entire lab", "whole class", "everyone", "principal", "not working for all"],
+  "rules": [
+    {
+      "name": "Password / Account",
+      "category": "software",
+      "subcategory": "Account/Password",
+      "assignment_group": "Service Desk",
+      "urgency": 2,
+      "impact": 3,
+      "keywords": ["password", "forgot", "locked out", "account locked", "login", "log in", "sign in", "reset", "credentials", "otp"]
+    },
+    {
+      "name": "Wi-Fi / Network",
+      "category": "network",
+      "subcategory": "Wi-Fi",
+      "assignment_group": "Network Support",
+      "urgency": 2,
+      "impact": 2,
+      "keywords": ["wifi", "wi-fi", "internet", "network", "no connection", "cannot connect", "lan", "router", "signal", "disconnecting"]
+    },
+    {
+      "name": "Projector / Display",
+      "category": "hardware",
+      "subcategory": "Projector/AV",
+      "assignment_group": "Hardware Support",
+      "urgency": 2,
+      "impact": 2,
+      "keywords": ["projector", "hdmi", "display", "smart board", "smartboard", "screen", "no signal", "lamp", "vga"]
+    },
+    {
+      "name": "Slow Computer / Performance",
+      "category": "hardware",
+      "subcategory": "Performance",
+      "assignment_group": "Hardware Support",
+      "urgency": 3,
+      "impact": 3,
+      "keywords": ["slow", "lag", "laggy", "freeze", "freezing", "hang", "hanging", "performance", "computer", "laptop", "pc", "takes long", "restart"]
+    },
+    {
+      "name": "Software Install / Issue",
+      "category": "software",
+      "subcategory": "Application",
+      "assignment_group": "Software Support",
+      "urgency": 3,
+      "impact": 3,
+      "keywords": ["install", "software", "application", "app", "license", "update", "crash", "error"]
+    }
+  ]
+}

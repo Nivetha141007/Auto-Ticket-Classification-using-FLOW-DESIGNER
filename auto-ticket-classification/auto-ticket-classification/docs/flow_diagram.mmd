@@ -1,0 +1,7 @@
+flowchart TD
+  A[Incident created] --> B[Classify Ticket script action]
+  B --> C[Look up assignment group]
+  C --> D[Update Incident: category, subcategory, urgency, impact, group, work note]
+  D --> E{needs_manual_review?}
+  E -- Yes --> F[Notify Service Desk lead]
+  E -- No --> G[End: ticket routed automatically]
